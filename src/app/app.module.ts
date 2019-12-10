@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
 import {TableModule} from 'primeng/table';
+import {PaginatorModule} from 'primeng/paginator';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {TableModule} from 'primeng/table';
     AppRoutingModule,
     InputTextModule,
     ButtonModule,
-    TableModule
+    TableModule,
+    PaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
