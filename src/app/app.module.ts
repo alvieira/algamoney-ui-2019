@@ -8,6 +8,7 @@ import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
 import {TableModule} from 'primeng/table';
 import {PaginatorModule} from 'primeng/paginator';
+import {TooltipModule} from 'primeng/tooltip';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {PaginatorModule} from 'primeng/paginator';
     InputTextModule,
     ButtonModule,
     TableModule,
-    PaginatorModule
+    PaginatorModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
